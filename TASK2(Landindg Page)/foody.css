@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Header */
+.top-header {
+  height: 95vh;
+}
+.mar{
+  background-color:rgb(26, 9, 9);
+  margin: 10px;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+}
+.logo {
+  color: #000;
+  font-family: "Playfair Display";
+  margin-left: 30px;
+}
+.highlight {
+  color: #d41b27;
+}
+.content h1 {
+  font-family: "Playfair Display";
+  color: #000;
+  margin: 3rem;
+  font-size: 400%;
+}
+.main-btn1 {
+  background-color: #d41b27;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: "Roboto";
+  margin: 10px;
+}
+.main-btn2 {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: "Roboto";
+  margin: 10px;
+}
+.btn-anim:hover {
+  background-color: beige;
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+.main-img {
+  border-radius: 50%;
+  height: 50%;
+  width: 40%;
+}
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* delivery-section */
+.delivery-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.del-img {
+  height: 200px;
+  width: 200px;
+  background-image: url(imgs/photo1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+.del-content h1 {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 3rem;
+  margin: 10px;
+}
+.del-content p {
+  font-family: "Roboto";
+  margin-bottom: 2rem;
+}
+.del-btn {
+  border: 1px solid white;
+}
+/* why-foody section */
+.why-foody {
+  background-color: #fff;
+  margin-bottom: 5rem;
+}
+.why-foody h1 {
+  font-family: "Playfair Display";
+  color: #000;
+  margin: 3rem;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 60px;
+}
+.card-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.foody-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.foody-card {
+  margin: 1rem;
+  text-align: center;
+}
+.foody-card h2 {
+  font-family: "Playfair Display";
+  color: #000;
+  font-size: 200%;
+}
+.card-info {
+  font-family: "Roboto";
+  margin-bottom: 1rem;
+}
+.testimonial {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.user-img{
+  background-image: url(imgs/customer\ img.jpg);
+  background-size: cover;
+  height: 400px;
+  width:40%;
+  margin-right: 3rem;
+  box-shadow: 20px 20px 5px 5px #fff;
+  background-position: center;
+}
+.user-name{
+  color:white;
+  font-family: "Playfair Display";
+  font-size: 25px;
+  margin-top: 1rem;
+}
+.user-info{
+ font-family: "Roboto";
+ font-size: 20px;
+}
+.contact{
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+ align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+.con-card{
+  margin: 2rem;
+}
+.con-card-info{
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.foot{
+  background-color: #000;
+  padding: 10px;
+  color:white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Playfair Display";
+}
+.copyright{
+  font-family: "Roboto";
+}
+@media only screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .delivery-section {
+    text-align: center;
+  }
+  .del-content h1 {
+    font-size: 2rem;
+  }
+  .del-content p {
+    font-size: 12px;
+  }
+  .user-img{
+    height: 50%;
+    width: 50%;
+  }
+}
