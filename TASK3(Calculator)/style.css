@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+
+.conatiner{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(72, 62, 62);
+    border-radius: 20px;
+    padding: 1rem;
+}
+.cal h1{
+    color: white;
+    padding-bottom: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: right;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.btns button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px 2px black;
+}
