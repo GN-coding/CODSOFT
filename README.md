@@ -1,4 +1,4 @@
-# Codsoft Ineship Project - Level 1 Tasks
+# Codsoft Internship Project - Level 1 Tasks
 
 ## Description
 This repository contains the completed Level 1 Tasks for the Codsoft Ineship project. The tasks include a Personal Portfolio, Foody Landing Page, and Calculator App.
